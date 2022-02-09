@@ -1,0 +1,107 @@
+body {
+  background-color: #f6f7f9;
+  font-family: 'Raleway', sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ebebeb;
+}
+
+header .wrapper {
+  padding: 30px 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  display: block;
+  text-transform: uppercase;
+  margin-left: 10px;
+  text-decoration: none;
+  font-family: 'Fredoka One', cursive;
+  font-weight: 600;
+  font-size: 1.8em;
+  color: #ab47bc;
+}
+.logo a span {
+  color: #673ab7;
+}
+
+header form {
+  margin-left: 100px;
+  display: inline-flex;
+  align-items: center;
+}
+
+header form input {
+  padding: 12px 12px 12px 50px;
+  width: 500px;
+  height: 20px;
+  background-color: #f6f7f9;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+}
+
+header form input::placeholder {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 1.1em;
+  color: #b4b8bb;
+}
+
+header form ion-icon {
+  position: absolute;
+  padding-left: 20px;
+  color: #b4b8bb;
+  font-size: 1.1em;
+}
+
+header .a-btn a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 30px;
+  border-radius: 50px;
+  margin-left: 5px;
+  color: #000;
+  font-weight: 600;
+}
+
+header .a-btn a:hover {
+  border: 1px solid #ebebeb;
+}
+
+header ul li {
+  list-style: none;
+  float: left;
+  margin-left: 30px;
+}
+header ul li a {
+  font-size: 1.6em;
+  display: inline-block;
+  color: #000;
+  position: relative;
+}
+header ul li:nth-child(2) a span {
+  z-index: 999;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -5px;
+  right: -8px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 0.6em;
+  background-color: #ff5722;
+  color: #fff;
+}
