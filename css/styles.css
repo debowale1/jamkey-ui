@@ -105,3 +105,65 @@ header ul li:nth-child(2) a span {
   background-color: #ff5722;
   color: #fff;
 }
+
+/* slider */
+
+.slider {
+  position: relative;
+  height: 480px;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider .main-slider {
+  position: relative;
+  width: 64%;
+  height: inherit;
+  background-color: #1e88e5;
+  border-radius: 10px;
+  padding: 100px 60px;
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0px 50px 45px -45px #1e88e5;
+}
+
+.main-slider-content h3 {
+  font-size: 1.6em;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+}
+.main-slider-content h1 {
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Raleway', sans-serif; */
+  font-weight: 800;
+  font-size: 4.5em;
+  margin-bottom: 10px 0 40px;
+}
+
+.btn {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 28px;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+
+.main-slider-content .btn ion-icon {
+  margin-left: 10px;
+}
+
+.controller-pic {
+  position: absolute;
+  left: 430px;
+  bottom: 20px;
+}
+.controller-pic img {
+  width: 550px;
+}
