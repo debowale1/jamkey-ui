@@ -428,3 +428,82 @@ header ul li:nth-child(2) a span {
 .range input[type='range']:nth-child(2) {
   background: none;
 }
+
+.catalog {
+  position: relative;
+}
+
+.catalog .game-cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.catalog .game-cards .card {
+  width: 23%;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.catalog .game-cards .card-image {
+  border-radius: 10px;
+  /* height: 450px; */
+  overflow: hidden;
+}
+.catalog .game-cards .card img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.catalog .game-cards .card .card-content {
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.catalog .game-cards .card .card-content h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.35);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.catalog .game-cards .card .card-content h2.card-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.catalog .game-cards .card .card-content h2.card-price {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  color: #ff7353;
+  font-weight: 900;
+  margin-top: 35px;
+}
+
+.catalog .show-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.catalog .show-more .show-btn {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 1.3em;
+  display: inline-block;
+  padding: 20px 30px;
+  color: #ff7353;
+  border: 1px solid #ff7353;
+  border-radius: 50px;
+  text-decoration: none;
+}
